@@ -2,9 +2,9 @@
 My attempt at creating a website for searching for Lorcana cards and making decks.
 
 ## Setup
-1. git clone
+1. Clone repo
 ```
-https://github.com/zishiwu123/cardexplorer.git
+git clone https://github.com/zishiwu123/cardexplorer.git
 ```
 
 2. Create virtualenv
