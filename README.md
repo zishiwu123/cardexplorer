@@ -29,14 +29,13 @@ source .ven/bin/activate
 pip install -r requirements.txt
 ```
 
-5. Run app
+5. Run tests
+```
+python -m unittest discover
+```
+
+6. Run app
 ```
 cd cardexplorer
 fastapi dev main.py
-```
-
-6. Run tests
-```
-cd cardexplorer
-python -m unittest discover
 ```
