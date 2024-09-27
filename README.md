@@ -34,3 +34,9 @@ pip install -r requirements.txt
 cd cardexplorer
 fastapi dev main.py
 ```
+
+6. Run tests
+```
+cd cardexplorer
+python -m unittest discover
+```

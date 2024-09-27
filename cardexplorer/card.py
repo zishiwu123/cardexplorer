@@ -11,12 +11,12 @@ class CardRarity(Enum):
     ENCHANTED = 'Enchanted'
 
 class InkColor(Enum):
-    Amber = 'Amber'
-    Amethyst = 'Amethyst'
-    Emerald = 'Emerald'
-    Ruby = 'Ruby'
-    Sapphire = 'Sapphire'
-    Steel = 'Steel'
+    AMBER = 'Amber'
+    AMETHYST = 'Amethyst'
+    EMERALD = 'Emerald'
+    RUBY = 'Ruby'
+    SAPPHIRE = 'Sapphire'
+    STEEL = 'Steel'
 
 class Card(BaseModel):
     id: int
