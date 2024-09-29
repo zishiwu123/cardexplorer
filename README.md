@@ -39,3 +39,11 @@ python -m unittest discover
 cd backend
 python main.py
 ```
+
+7. Run frontend on localhost:5173
+```
+cd frontend
+npm run dev
+```
+Submit `setNumber` between 1 and 5 and `cardNumber` between 1 and 225 (too big for some sets)
+to see the Lorcana card associated with that search.
