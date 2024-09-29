@@ -1,7 +1,7 @@
 from typing import Dict, List
 import unittest
-from cardexplorer. card import Card, CardRarity, InkColor
-from cardexplorer.data import load_cards, search_cards
+from app.card import Card, CardRarity, InkColor
+from app.data import load_cards, search_cards
 
 def json_to_card(card_json_list: List[Dict]) -> List[Card]:
     return [Card(**card_json) for card_json in card_json_list]

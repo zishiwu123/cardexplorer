@@ -3,7 +3,7 @@ from pathlib import Path
 from typing import List, Optional
 from .card import Card, CardRarity, InkColor
 
-BASE_PATH_DIR = Path(__file__).parent
+BASE_PATH_DIR = Path(__file__).parent.parent
 
 def search_cards(
     cards: List[Card],

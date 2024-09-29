@@ -9,7 +9,7 @@ git clone https://github.com/zishiwu123/cardexplorer.git
 
 2. Create virtualenv
 ```
-cd cardexplorer
+cd backend
 python3 -m venv .venv
 ```
 
@@ -21,7 +21,7 @@ source .venv/Scripts/activate
 
 - MacOS/Linux
 ```
-source .ven/bin/activate
+source .venv/bin/activate
 ```
 
 4. Install dependencies
@@ -34,8 +34,8 @@ pip install -r requirements.txt
 python -m unittest discover
 ```
 
-6. Run app
+6. Run API on localhost:8000
 ```
-cd cardexplorer
-fastapi dev main.py
+cd backend
+python main.py
 ```
